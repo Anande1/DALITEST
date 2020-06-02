@@ -1,0 +1,47 @@
+#entete {
+    
+    color: #980101;
+    height: 81px;
+    padding: 0em;
+    border-collapse: separate;
+}
+
+#pied {
+    clear: both;
+    border: solid 0.2em #980101;
+    margin-left: 18%;
+    margin-top: 1em;
+    padding: 0.4em;
+    padding: 0.2em;
+    border-collapse: separate;
+}
+
+
+/* pour rétablir le mauvais effet sur les nav. modernes */
+
+html>body #contenu {
+    height: auto;
+}
+
+#entete h1 {
+    margin: 1em;
+    margin-left: 6em;
+    font-size: x-large;
+    text-align: center;
+}
+
+/* pour le bouton inscription */
+
+#bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    background:(dalitest/image/bouton-noir.png) no-repeat;
+    color:white;
+    text-decoration:none;
+    }
+    
+    #bouton a:hover {
+    background:url(image/bouton-noir-2.png) no-repeat;
+    }
